@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.link {
+    background-color: black;
+    height: 15vh;
+    width: 100%;
+    padding: 2%;
+    border-bottom: 2px solid whitesmoke;
+    
+}
+
+ul {
+    float: right;
+}
+
+ul :hover {
+    color: #2c2c2c;
+}
+
+a {
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: bolder;
+    text-shadow: 1px 1px gray;
+}
+
+li {
+    display: inline-block;
+}
+
+.encabezado {
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(#2c2c2c, #70707000);
+    border-bottom: 1px solid black;
+    margin-bottom: 2%;
+}
+
+.img {
+    border: 5px solid black;
+    border-radius: 40px;
+    height: 300px;
+    width: 330px;
+    margin-top: 2%;
+}
+
+.nomb {
+    padding: 20px;
+    width: 50%;
+}
+
+h1 {
+    color: black;
+    text-align: left;
+    text-shadow: 2px 2px gray;
+    padding: 5px;
+}
+
+p {
+    color: black;
+    font-weight: bold;
+    line-height: 2;
+    text-indent: 10px;
+    text-shadow: 1px 1px gray;
+}
+
+h2 {
+    text-align: right;
+    padding-bottom: 10px;
+}
+
+.sec1 {
+    border-bottom: 1px solid black;
+    padding-bottom: 5%;
+    padding-left: 2%;
+    margin-bottom: 2%;
+}
+
+.sec2 {
+    border-bottom: 1px solid black;
+    padding-bottom: 5%;
+    padding-left: 2%;
+    margin-bottom: 2%;
+}
+
+.foot {
+    color: whitesmoke;
+    background-color: black;
+    text-align: center;
+}
+
+.foot p {
+    color: whitesmoke;
+    text-shadow: none;
+}
